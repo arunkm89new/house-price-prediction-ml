@@ -10,6 +10,8 @@ The dataset consists of 506 samples with 13 numerical features, including indica
 
 The dataset is moderately noisy and contains correlated features (e.g., `RAD` and `TAX`), making it suitable for studying linear regression and the impact of regularization techniques such as Ridge and Lasso regression.
 
+Dataset source: https://www.kaggle.com/datasets/fedesoriano/the-boston-houseprice-data
+
 ## Conclusion
 
 This project explored house price prediction as a supervised regression problem using the Boston Housing dataset. Linear Regression was used as a baseline model, followed by Ridge and Lasso regression to study the impact of regularization.
