@@ -12,6 +12,15 @@ The dataset is moderately noisy and contains correlated features (e.g., `RAD` an
 
 Dataset source: https://www.kaggle.com/datasets/fedesoriano/the-boston-houseprice-data
 
+## Workflow
+
+1. Exploratory Data Analysis (EDA)
+2. Feature scaling using StandardScaler
+3. Train-test split
+4. Model training (Linear, Ridge, Lasso)
+5. Model evaluation using RMSE
+6. Bias–variance comparison
+
 ## Conclusion
 
 This project explored house price prediction as a supervised regression problem using the Boston Housing dataset. Linear Regression was used as a baseline model, followed by Ridge and Lasso regression to study the impact of regularization.
@@ -21,3 +30,11 @@ The Linear Regression model achieved an RMSE of approximately 5.05, indicating t
 Overall, the results indicate that the dataset does not suffer from severe overfitting, and regularization offers limited but meaningful improvement. Ridge Regression was the most suitable model for this problem, balancing bias and variance while retaining all informative features.
 
 Further improvements would require richer feature engineering, non-linear models, or additional data, as the remaining error is likely due to inherent noise in the dataset.
+
+## Key Learnings
+
+- Learned how to frame a regression problem and evaluate it using RMSE.
+- Understood the impact of feature scaling on linear models.
+- Observed how Ridge Regression improves stability in the presence of correlated features.
+- Learned that Lasso Regression can introduce underfitting when too many useful features are removed.
+- Gained practical experience in interpreting model error relative to data scale and noise.
